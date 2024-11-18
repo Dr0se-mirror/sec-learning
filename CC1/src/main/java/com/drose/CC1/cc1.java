@@ -49,11 +49,11 @@ public class cc1 {
         Object o = AnnotationInvocationHandlerConstructor.newInstance(Target.class, decorateMap);
         // 序列化反序列化
         serialize(o);
-        unserialize("ser.bin");
+        unserialize("test.txt");
     }
     //序列化反序列化
     public static void serialize(Object obj) throws IOException, FileNotFoundException {
-        ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream("ser.bin"));
+        ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream("test.txt"));
         oos.writeObject(obj);
     }
     public static Object unserialize(String Filename) throws IOException, ClassNotFoundException{
