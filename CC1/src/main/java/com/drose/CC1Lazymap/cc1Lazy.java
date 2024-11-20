@@ -12,5 +12,6 @@ import java.util.Map;
 public class cc1Lazy {
     public static void main(String[] args) throws NoSuchMethodException, InvocationTargetException, IllegalAccessException {
         InvokerTransformer invokerTransformer = new InvokerTransformer("exec", new Class[]{String.class}, new Object[]{"calc"});
+        // next
     }
 }
