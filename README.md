@@ -5,3 +5,8 @@
 （2024/11/19骑车摔骨折，做手术去了，间隔了一段时间没有更新）
 
 https://kdocs.cn/l/cilx7kewJnkw
+
+# 大模型安全
+入门，看看一些文献进行探索
+
+https://kdocs.cn/l/cojP7kR6SE86

@@ -22,7 +22,7 @@ public class cc6 {
 
         HashMap hashMap = new HashMap();
         Map lazymap = LazyMap.decorate(hashMap, chainedTransformer);
-//        lazymap.get("Dr0se");
+        lazymap.get("Dr0se");
         //需要继续分析哪里有get()函数的调用。
 
     }
