@@ -3,7 +3,13 @@
 # Java安全
 目前进度，CC1、CC1lazyMap、CC6、CC3更新完毕。
 
+## java反序列化系列
+
 https://kdocs.cn/l/cilx7kewJnkw
+
+## java反序列化进阶知识学习
+
+https://kdocs.cn/l/ceqBfH2K4pS4
 
 # 大模型安全
 入门，看看一些文献进行探索。
