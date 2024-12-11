@@ -9,11 +9,11 @@ import java.rmi.registry.Registry;
 
 public class RMIServer {
     public static void main(String[] args) throws Exception {
-        RemoteObjImpl remoteObj = new RemoteObjImpl();
+        //实例化对象
+        Remoteobj remoteobj = new RemoteObjImpl();
+        //创建注册中心
         Registry registry = LocateRegistry.createRegistry(1099);
-//         写法一：通过Naming绑定
-//        Naming.bind("remoteObj",remoteObj);
-//         写法二：通过registry绑定
-        registry.bind("remoteObj",remoteObj);
+        //绑定对象到注册中心
+        registry.bind("qwq",remoteobj);
     }
 }

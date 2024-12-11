@@ -3,14 +3,13 @@ package com.drose.server;
 import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
 
-public class RemoteObjImpl extends UnicastRemoteObject implements RemoteObj {
+public class RemoteObjImpl extends UnicastRemoteObject implements Remoteobj {
+    public RemoteObjImpl() throws RemoteException{
 
-    public RemoteObjImpl() throws Exception {
     }
-
-    public String sayHello(String keywords) throws Exception {
-        String upKeywrods = keywords.toUpperCase();
-        System.out.println("Server:" + upKeywrods);
-        return upKeywrods;
+    @Override
+    public String SayHello(String key) throws RemoteException{
+        System.out.println(key);
+        return key;
     }
 }
