@@ -23,6 +23,16 @@
         <artifactId>commons-collections</artifactId>
         <version>3.2.1</version>
       </dependency>
+    <dependency>
+      <groupId>org.apache.tomcat</groupId>
+      <artifactId>tomcat-catalina</artifactId>
+      <version>8.5.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.tomcat.embed</groupId>
+      <artifactId>tomcat-embed-el</artifactId>
+      <version>8.5.15</version>
+    </dependency>
   </dependencies>
   <build>
     <finalName>CC_chain</finalName>
