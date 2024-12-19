@@ -4,6 +4,8 @@
 ### java反序列化CC系列
 目前进度，CC1、CC1lazyMap、CC6、CC3更新完毕。
 
+shiro550更新ing
+
 https://kdocs.cn/l/cilx7kewJnkw
 ### java反序列化进阶知识学习
 #### RMI
@@ -17,3 +19,8 @@ https://kdocs.cn/l/ckOY8pZoEpZu
 入门，看看一些文献进行探索。
 
 https://kdocs.cn/l/cojP7kR6SE86
+
+## codeql安全学习
+更新完成sql注入jdbc query检测demo
+
+https://kdocs.cn/l/cusbvzb4Y4Wa
