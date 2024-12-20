@@ -2,7 +2,7 @@
 我个人的学习记录，如果喜欢可以点颗星，互勉！！！（持续更新）
 ##  Java安全
 ### java反序列化CC系列
-目前进度，CC1、CC1lazyMap、CC6、CC3更新完毕。
+目前进度，CC1、CC1lazyMap、CC6、CC3、CC4更新完毕。
 
 shiro550更新完成、开始更新CB1
 
