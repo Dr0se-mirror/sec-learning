@@ -7,6 +7,7 @@
   <modules>
     <module>CC</module>
     <module>RMI</module>
+      <module>CB</module>
   </modules>
   <version>1.0-SNAPSHOT</version>
   <name>CC_chain Maven Webapp</name>
