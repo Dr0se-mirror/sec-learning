@@ -4,7 +4,7 @@
 ### java反序列化CC系列
 目前进度，CC1、CC1lazyMap、CC6、CC3更新完毕。
 
-shiro550更新完成
+shiro550更新完成、开始更新CB1
 
 https://kdocs.cn/l/cilx7kewJnkw
 ### java反序列化进阶知识学习
