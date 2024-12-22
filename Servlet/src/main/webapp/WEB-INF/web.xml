@@ -3,4 +3,20 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
+        <filter> <filter-name>filter</filter-name>
+            <filter-class>com.drose.servlet.filter</filter-class>
+        </filter>
+        <filter-mapping>
+            <filter-name>filter</filter-name>
+            <url-pattern>/filter</url-pattern>
+        </filter-mapping>
+
+        <servlet>
+            <servlet-name>servlet</servlet-name>
+            <servlet-class>com.drose.servlet.servlet</servlet-class>
+        </servlet>
+        <servlet-mapping>
+            <servlet-name>servlet</servlet-name>
+            <url-pattern>/servlet</url-pattern>
+        </servlet-mapping>
 </web-app>
