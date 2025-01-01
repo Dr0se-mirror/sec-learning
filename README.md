@@ -21,7 +21,7 @@ https://kdocs.cn/l/ckOY8pZoEpZu
 https://kdocs.cn/l/cojP7kR6SE86
 
 ## codeql安全学习
-更新完成sql注入jdbc query检测demo
+更新完成sql注入jdbc query检测demo，补充ql角度的shiro分析
 
 https://kdocs.cn/l/cusbvzb4Y4Wa
 
