@@ -12,9 +12,6 @@ https://kdocs.cn/l/cilx7kewJnkw
 
 https://kdocs.cn/l/ceqBfH2K4pS4
 
-#### 内存马
-
-https://kdocs.cn/l/ckOY8pZoEpZu
 ## 大模型安全
 入门，看看一些文献进行探索。
 

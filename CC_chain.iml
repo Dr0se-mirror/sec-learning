@@ -2,18 +2,21 @@
 <module version="4">
   <component name="AdditionalModuleElements">
     <content url="file://$MODULE_DIR$" dumb="true">
-      <sourceFolder url="file://$MODULE_DIR$/Servlet/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Memshell/src/main/java" isTestSource="false" />
     </content>
   </component>
   <component name="FacetManager">
     <facet type="web" name="Web">
       <configuration>
         <descriptors>
-          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/Servlet/src/main/webapp/WEB-INF/web.xml" />
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/Memshell/src/main/webapp/WEB-INF/web.xml" />
         </descriptors>
         <webroots>
           <root url="file://$MODULE_DIR$/Servlet/src/main/webapp" relative="/" />
         </webroots>
+        <sourceRoots>
+          <root url="file://$MODULE_DIR$/Servlet/src/main/java" />
+        </sourceRoots>
       </configuration>
     </facet>
   </component>
