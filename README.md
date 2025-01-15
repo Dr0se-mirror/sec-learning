@@ -26,3 +26,7 @@ https://kdocs.cn/l/cusbvzb4Y4Wa
 ngnix漏洞复现
 
 https://kdocs.cn/l/cvU8kYstZAlm
+
+## 红队知识记录
+
+https://kdocs.cn/l/cro715T59wLM
